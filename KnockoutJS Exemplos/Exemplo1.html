@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<title> Projeto KnockoutJS - Exemplo 1 </title>
+	</head>
+
+	<body>
+		<p> Primeiro Nome: <strong> Dayane </strong></p>
+		<p> Sobrenome: <strong> Souza </strong></p>
+
+		<!-- DATA-BIND: permite associar propriedades da VIEW MODEL com Elementos HTML  -->
+		<p> Primeiro Nome: <strong data-bind="text: firstName"></strong></p> <!-- exibir o nome da pessoa que esta definido no JS -->
+		<p> Sobrenome: <strong data-bind="text: lastName"></strong></p> 
+		
+		<script src="knockout/knockout.js"> </script>
+		<script src="js/main.js"> </script>
+	</body>
+</html>
